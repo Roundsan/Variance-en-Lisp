@@ -3,16 +3,16 @@
 (in-package #:variance)
 
 
-(defun moyenne (x)
-  (let ((n 0))
-    (dolist (i x
-	   (/ n (length x)))
-    (setf n (+ n i)))))
+(defun moyenne (liste)
+  (let ((nombre-additionés 0))
+    (dolist (i liste
+	   (/ nombres-additionés (length liste)))
+    (setf nombres-additionés (+ nombres-additionés i)))))
 
-(defun puissance-2 (x)
-  (* x x))
+(defun puissance-2 (nombre)
+  (* nombre nombre))
 
-(defun variance (x)
-  (let ((v 0.0))
-    (dolist (i x (/ v (length x)))
-      (setf v (+ v (puissance-2 (- i (moyenne x))))))))
+(defun variance (liste)
+  (let ((nombre 0.0))
+    (dolist (i liste (/ nombre (length liste)))
+      (setf nombre (+ nombre (puissance-2 (- i (moyenne liste))))))))
