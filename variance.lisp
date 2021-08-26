@@ -4,7 +4,7 @@
 
 
 (defun moyenne (liste)
-  (let ((nombre-additionés 0))
+  (let ((nombres-additionés 0))
     (dolist (i liste
 	   (/ nombres-additionés (length liste)))
     (setf nombres-additionés (+ nombres-additionés i)))))
