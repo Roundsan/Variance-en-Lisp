@@ -6,6 +6,7 @@
 Lancer emacs et rentrer les commandes suivantes dans le slime repl
 
 `(ql:quickload "variance")
+
 (in-package #:variance)`
 
 Le programme et ses symboles vous sont maintenant accessible
