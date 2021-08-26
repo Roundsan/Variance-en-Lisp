@@ -1,6 +1,15 @@
 # variance
 ### Round <round@symfunc.com>
 
+#### Comment utiliser
+
+Lancer emacs et rentrer les commandes suivantes dans le slime repl
+
+`(ql:quickload "variance")
+(in-package #:variance)`
+
+Le programme et ses symboles vous sont maintenant accessible
+
 #### Explication
 
 Ce programme permet de calculer la variance d'une liste de nombres.
