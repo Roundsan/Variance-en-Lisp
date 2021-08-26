@@ -13,7 +13,7 @@ Une variance se calcule de la manière suivante:
 3) On divise par la quantité de nombres, et on a le résultat
 
 
-#### Exemple
+#### Exemples
 
 (variance '(4 7 87 56 8)) => renvoie: 1194.6875
 
